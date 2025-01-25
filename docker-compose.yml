@@ -1,0 +1,10 @@
+services:
+  romchik_sosal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - "7777:7777"
+    container_name: romchik_sosal

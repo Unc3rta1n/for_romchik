@@ -1,6 +1,6 @@
 import os
 
-from utils.logger import setup_logger
+from app.utils.logger import setup_logger
 
 if not os.path.isdir('/app/runtime'):
     os.makedirs('/app/runtime')

@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from bs4 import BeautifulSoup
 import aiohttp
 
-from utils import logger
-from schemas import DefaultResponse
+from app.utils import logger
+from app.schemas import DefaultResponse
 
 app = FastAPI(
     debug=True,
@@ -27,7 +27,7 @@ async def random():
                 logger.error(f"Status code from request: {response.status}")
                 return DefaultResponse(error=True,
                                        message="Сервис вышел покурить",
-                                       payload=None)
+                                       payload="Ромчик опять чето сломал")
             html = await response.text()
             soup = BeautifulSoup(html, "html.parser")
             fact_table = soup.find('table', class_='text')
