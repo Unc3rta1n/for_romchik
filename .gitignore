@@ -105,7 +105,13 @@ venv.bak/
 
 # IntelliJ products
 .idea/
-.idea/inspectionProfiles/
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/vcs.xml
+.idea/for_romchik.iml
+.idea/modules.xml
+
+
 # Default ignored files
 /shelf/
 /workspace.xml
