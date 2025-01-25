@@ -110,7 +110,7 @@ venv.bak/
 .idea/vcs.xml
 .idea/for_romchik.iml
 .idea/modules.xml
-
+.idea
 
 # Default ignored files
 /shelf/
