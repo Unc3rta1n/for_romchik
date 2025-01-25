@@ -14,7 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-.pgdata/
 lib/
 lib64/
 parts/
@@ -107,19 +106,18 @@ venv.bak/
 # IntelliJ products
 .idea/
 
-# runtime
-runtime/
-runtime/channels.txt
-
-# database settings
-db_settings.ini
-db_front_settings.ini
-
 # VSCode
 .vscode/
 
 # app logs
 nohup.out
 
-data/message.csv
-data/user.csv
+# settings
+settings.ini
+runtime
+
+# test
+o.xml
+out.xml
+tst.txt
+acun.html
